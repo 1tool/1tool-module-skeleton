@@ -1,0 +1,619 @@
+@font-face {
+    font-family: 'KundenMeister';
+    src: url(/fonts/KundenMeister.eot?064592494885a8749e8036c450469dc5);
+    src: url(/fonts/KundenMeister.eot?064592494885a8749e8036c450469dc5#iefix) format('embedded-opentype'), url(/fonts/KundenMeister.ttf?b15a1ba7cbd9b957a4c2d0ec58250f60) format('truetype'), url(/fonts/KundenMeister.woff?c6242c20d1a2f827a8dafb27a6acbd97) format('woff'), url(/fonts/KundenMeister.svg?92452c266937526a31b01003789a6a89#KundenMeister) format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class*=" km-"]:not(.km-version),
+[class^="km-"]:not(.km-version):not(.km-ticket-overview) {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'KundenMeister' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.btn>[class*=km-] {
+    display: inline;
+    margin-right: 4px;
+    color: #2f86fe;
+}
+
+*[class*=km-] {
+
+}
+
+#navigation i[class^="km-"],
+#navigation i[class*=" km-"] {
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    margin-right: 2px;
+}
+
+.font-size-100,
+[class*=km-].font-size-100:before,
+.font-size-100--icon [class*=km-].font-size-100:before {
+    font-size: 100% !important;
+}
+
+[class*=km-][class*=--small] {
+    font-size: 18px;
+}
+
+.km-success:before {
+    content: "\e963";
+}
+
+.km-error:before {
+    content: "\e964";
+}
+
+.km-help:before {
+    content: "\e965";
+}
+
+.km-warning:before {
+    content: "\e966";
+}
+
+.km-cat:before {
+    content: "\e95f";
+}
+
+.km-dog:before {
+    content: "\e960";
+}
+
+.km-warehouse-inventory-stock:before {
+    content: "\e961";
+}
+
+.km-warehouse-transfer:before {
+    content: "\e962";
+}
+
+.km-stopwatch--small:before {
+    content: "\e95a";
+}
+
+.km-time--small:before {
+    content: "\e95b";
+}
+
+.km-trash--small:before {
+    content: "\e95c";
+}
+
+.km-edit--small:before {
+    content: "\e95d";
+}
+
+.km-stopwatch:before {
+    content: "\e95e";
+}
+
+.km-check-circle-blocked:before {
+    content: "\e94e";
+    color: #999999;
+    font-size: 130%;
+}
+
+.km-check-circle-ok:before {
+    content: "\e94f";
+    color: #4ECDAA;
+    font-size: 130%;
+}
+
+.km-check-circle-remove:before {
+    content: "\e950";
+    color: #FF787F;
+    font-size: 130%;
+}
+
+.km-deposit-part:before {
+    content: "\e951";
+}
+
+.km-download:before {
+    content: "\e952";
+}
+
+.km-next-phase:before {
+    content: "\e953";
+}
+
+.km-print:before {
+    content: "\e954";
+}
+
+.km-protocol:before {
+    content: "\e955";
+}
+
+.km-refresh:before {
+    content: "\e956";
+}
+
+.km-options:before {
+    content: "\e957";
+}
+
+.km-move:before {
+    content: "\e958";
+}
+
+.km-burger:before {
+    content: "\e959";
+}
+
+.km-close:before {
+    content: "\e94a";
+}
+
+.km-edit-menu:before {
+    content: "\e94b";
+}
+
+.km-export:before {
+    content: "\e94c";
+}
+
+.km-plus:before {
+    content: "\e94d";
+}
+
+.km-search:before {
+    content: "\e943";
+}
+
+.km-edit:before {
+    content: "\e944";
+}
+
+.km-detail-view:before {
+    content: "\e945";
+    color: #ff892a;
+}
+
+.km-task-td:before {
+    content: "\e946";
+}
+
+.km-comment-empty-td:before {
+    content: "\e941";
+}
+
+.km-trash:before {
+    content: "\e947";
+}
+
+.km-envelope:before {
+    content: "\e948";
+}
+
+.km-mobile:before {
+    content: "\e949";
+}
+
+.km-send-approval:before {
+    content: "\e942";
+}
+
+.km-envelope--thick:before {
+    content: "\e93e";
+}
+
+.km-phone:before {
+    content: "\e93f";
+}
+
+.km-mobile--thick:before {
+    content: "\e940";
+}
+
+.km-certificate:before {
+    content: "\e924";
+}
+
+.km-sale:before {
+    content: "\e927";
+}
+
+.km-organization:before {
+    content: "\e929";
+}
+
+.km-address-book:before {
+    content: "\e601";
+}
+
+.km-add-contact:before {
+    content: "\e604";
+}
+
+.km-comments:before {
+    content: "\e607";
+}
+
+.km-search-user:before {
+    content: "\e619";
+}
+
+.km-contacts-maps:before {
+    content: "\e61a";
+}
+
+.km-tasks:before {
+    content: "\e609";
+}
+
+.km-mail:before {
+    content: "\e618";
+}
+
+.km-old-sms:before {
+    content: "\e617";
+}
+
+.km-old-calendar:before {
+    content: "\e60e";
+}
+
+.km-invoice:before {
+    content: "\e616";
+}
+
+.km-reminder:before {
+    content: "\e615";
+}
+
+.km-dashboard:before {
+    content: "\e900";
+}
+
+.km-base-data:before {
+    content: "\e901";
+}
+
+.km-seminar:before {
+    content: "\e902";
+}
+
+.km-voucher:before {
+    content: "\e903";
+}
+
+.km-visit-reports:before {
+    content: "\e904";
+}
+
+.km-applicants-overview:before {
+    content: "\e905";
+}
+
+.km-event:before {
+    content: "\e906";
+}
+
+.km-bookings:before {
+    content: "\e907";
+}
+
+.km-survey:before {
+    content: "\e908";
+}
+
+.km-coupon-app:before {
+    content: "\e909";
+}
+
+.km-tickets-app:before {
+    content: "\e90a";
+}
+
+.km-business:before {
+    content: "\e90b";
+}
+
+.km-calendar:before {
+    content: "\e90c";
+}
+
+.km-documents:before {
+    content: "\e90d";
+}
+
+.km-ticket:before {
+    content: "\e90e";
+}
+
+.km-doctor:before {
+    content: "\e90f";
+}
+
+.km-sponsorships:before {
+    content: "\e910";
+}
+
+.km-user-group:before {
+    content: "\e911";
+}
+
+.km-contracts:before {
+    content: "\e912";
+}
+
+.km-task:before {
+    content: "\e913";
+}
+
+.km-wiki:before {
+    content: "\e914";
+    color: #585858;
+}
+
+.km-project:before {
+    content: "\e915";
+}
+
+.km-shop:before {
+    content: "\e916";
+}
+
+.km-warehouse-management:before {
+    content: "\e917";
+}
+
+.km-shopping-card:before {
+    content: "\e918";
+}
+
+.km-product:before {
+    content: "\e919";
+}
+
+.km-opportunity:before {
+    content: "\e91a";
+}
+
+.km-bill:before {
+    content: "\e91b";
+}
+
+.km-finances:before {
+    content: "\e91c";
+}
+
+.km-newsletter:before {
+    content: "\e91d";
+    color: #585858;
+}
+
+.km-sms:before {
+    content: "\e91e";
+}
+
+.km-contract:before {
+    content: "\e91f";
+}
+
+.km-user:before {
+    content: "\e920";
+}
+
+.km-time:before {
+    content: "\e921";
+}
+
+.km-accounting:before {
+    content: "\e922";
+}
+
+.km-marketing:before {
+    content: "\e923";
+    color: #585858;
+}
+
+.km-more-money:before {
+    content: "\e61b";
+}
+
+.km-check:before {
+    content: "\e61c";
+}
+
+.km-pharmacy:before {
+    content: "\e60d";
+}
+
+.km-clock:before {
+    content: "\e613";
+}
+
+.km-gallery:before {
+    content: "\e60f";
+}
+
+.km-text-image:before {
+    content: "\e925";
+}
+
+.km-vertical-bottom:before {
+    content: "\e926";
+}
+
+.km-vertical-center:before {
+    content: "\e938";
+}
+
+.km-vertical-top:before {
+    content: "\e928";
+}
+
+.km-heart:before {
+    content: "\f004";
+}
+
+.km-user-md:before {
+    content: "\f0f0";
+}
+
+.km-stethoscope:before {
+    content: "\f0f1";
+}
+
+.km-hospital-o:before {
+    content: "\f0f8";
+}
+
+.km-ambulance:before {
+    content: "\f0f9";
+}
+
+.km-medkit:before {
+    content: "\f0fa";
+}
+
+.km-h-square:before {
+    content: "\f0fd";
+}
+
+.km-share-alt:before {
+    content: "\f1e0";
+}
+
+.km-bell:before {
+    content: "\e92a";
+}
+
+.km-comment:before {
+    content: "\e92b";
+}
+
+.km-search--thick:before {
+    content: "\e92c";
+}
+
+.km-bell-top-black:before {
+    content: "\e92d";
+}
+
+.km-comment-top-black:before {
+    content: "\e92e";
+}
+
+.km-detail-view--thick:before {
+    content: "\e92f";
+    color: #ff892a;
+}
+
+.km-cog:before {
+    content: "\e930";
+}
+
+.km-checkbox-empty:before {
+    content: "\e931";
+}
+
+.km-checkbox-checked:before {
+    content: "\e932";
+}
+
+.km-search-bold:before {
+    content: "\e933";
+}
+
+.km-task-td:before {
+    content: "\e934";
+}
+
+.km-comment-td:before {
+    content: "\e936";
+}
+
+.km-comment-td.light-grey:before {
+    content: "\e935";
+    /* switch to km-comment-empty-td */
+}
+
+.km-comment-empty-td--thick:before {
+    content: "\e935";
+}
+
+.km-edit--thick:before {
+    content: "\e937";
+}
+
+.km-trash--thick:before {
+    content: "\e939";
+}
+
+.km-dropdown-arrow-up:before {
+    content: "\e93c";
+}
+
+.km-dropdown-arrow-down:before {
+    content: "\e93d";
+}
+
+.btn>[class*=km-]:before {
+    color: inherit;
+}
+
+
+/* overwrite icon content to thick version (for testing) */
+
+.thick-icons .km-envelope:before {
+    content: "\e93e";
+}
+
+.thick-icons .km-mobile:before {
+    content: "\e940";
+}
+
+.thick-icons .km-search:before {
+    content: "\e92c";
+}
+
+.thick-icons .km-detail-view:before {
+    content: "\e92f";
+}
+
+.thick-icons .km-comment-empty-td:before {
+    content: "\e935";
+}
+
+.thick-icons .km-edit:before {
+    content: "\e937";
+}
+
+.thick-icons .km-trash:before {
+    content: "\e939";
+}
+
+.km-comment-td.light-grey:before {
+    content: "\e941";
+    /* switch to km-comment-empty-td */
+}
+
+.thick-icons .km-comment-td.light-grey:before {
+    content: "\e935";
+    /* switch to km-comment-empty-td--thick */
+}
+
+
+
+/*# sourceMappingURL=style.css.map*/
