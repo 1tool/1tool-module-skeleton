@@ -1,0 +1,99 @@
+.content {
+    margin-top: 83px;
+    overflow-y: auto;
+    flex-grow: 100;
+}
+
+.kms-createButton {
+    right: 0;
+    margin-right: 30px;
+
+    font-size: 13px;
+    font-family: motiva-sans, sans-serif;
+    height: 36px;
+    width: 164px;
+    color: white;
+    border-radius: 4px;
+    background-image: linear-gradient(to right, rgba(47,134,254,1), rgba(122,86,217,1));
+}
+
+.kms-createButton:hover {
+    background-image: linear-gradient(to right, rgb(32, 107, 255), rgb(32, 107, 255));
+}
+.kms-table {
+    margin-top: 18px;
+    width: calc(100% - 30px);
+    align-content: center;
+}
+.kms-table tr {
+    height: 40px;
+    border-bottom: 1px solid rgb(236, 236, 236);
+    vertical-align: center;
+}
+.kms-table tr:nth-child(odd) {
+    background-color: rgb(249, 249, 249);
+}
+.kms-table td {
+    height: inherit;
+}
+.awardContent {
+    font-size: 11px;
+    margin-left: 24px;
+    border-bottom: 1px dashed rgb(204, 204, 204);
+    align-self: center;
+}
+.awardContentHeader {
+    font-size: 11px;
+    margin-left: 24px;
+    align-self: center;
+}
+.kms-SlideOverHeading {
+    color: rgb(153, 153, 153);
+    background-color: rgb(249, 249, 249);
+    border-bottom: 2px solid rgb(236, 236, 236);
+    font-family: motiva-sans, sans-serif;
+    font-size: small;
+}
+.kms-SlideOverDescription {
+    color: rgb(46, 46, 49);
+    background-color: rgb(249, 249, 249);
+    border-bottom: 1px solid rgb(236, 236, 236);
+    font-family: motiva-sans, sans-serif;
+    font-size: small;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+.kms-SlideOverContentHeading {
+    font-family: motiva-sans, sans-serif;
+    font-size: 11px;
+}
+.kms-SlideOverSuccess:hover {
+    color: limegreen;
+}
+.kms-SlideOverCancel:hover {
+    color: red;
+}
+.kms-slideOverClose:hover {
+    color: rgba(153, 153, 153, 0.5);
+}
+.kms-SlideOverCloseBtn {
+    width: 110px;
+}
+.kms-SlideOverSaveBtn {
+    background-color: rgb(47, 134, 254);
+    width: 110px;
+}
+.kms-SlideOverCloseBtn:hover {
+    background-color: rgb(47, 134, 254);
+    color: white;
+    border-color: rgb(47, 134, 254);
+}
+.kms-SlideOverSaveBtn:hover {
+    background-color: rgb(32, 107, 255);
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/*# sourceMappingURL=km.css.map*/

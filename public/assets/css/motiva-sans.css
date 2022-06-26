@@ -1,0 +1,124 @@
+/** Motiva Sans 200 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-200.woff2?66ccb597cf6fdc1f3db79e63f23180cb) format("woff2"), url(/fonts/motiva-sans-200.woff?24c2477f018d2fb7fb123135913a9755) format("woff"), url(/fonts/motiva-sans-200.otf?8142de6981b53a37197315938fc1a42e) format("opentype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-200-italic.woff2?1dcd25e227afed646f0295f142c9a6ca) format("woff2"), url(/fonts/motiva-sans-200-italic.woff?7231193ce93fa1298c195c5f9d41285a) format("woff"), url(/fonts/motiva-sans-200-italic.woff?7231193ce93fa1298c195c5f9d41285a) format("opentype");
+    font-style: italic;
+    font-weight: 200;
+}
+
+
+/** Motiva Sans 300 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-300.woff2?0b5a5f5d329b0dc684e7cd8e22d600c3) format("woff2"), url(/fonts/motiva-sans-300.woff?f564cc315a375b8a5379aa51ff1434a5) format("woff"), url(/fonts/motiva-sans-300.otf?e0ea07d34ee0e4fed6a041d20252bd67) format("opentype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-300-italic.woff2?cbddfc522656e756f19325054ffff0e1) format("woff2"), url(/fonts/motiva-sans-300-italic.woff?4d26277b83db15f945134ba19b9691be) format("woff"), url(/fonts/motiva-sans-300-italic.otf?931e9d612bdd617f99bdc91be8c2c0c7) format("opentype");
+    font-style: italic;
+    font-weight: 300;
+}
+
+
+/** Motiva Sans 400 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-400.woff2?581f8125b10e2a2856da398af59d87ac) format("woff2"), url(/fonts/motiva-sans-400.woff?0a498c0caccd1628d1fd0a28a5db0b39) format("woff"), url(/fonts/motiva-sans-400.otf?243426cfdacc7ce4bfeeb017c87a0e85) format("opentype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-400-italic.woff2?79298836be26581a8d54b71bc1428833) format("woff2"), url(/fonts/motiva-sans-400-italic.woff?eb2e7aa362c4f6765e2d0ce454025ace) format("woff"), url(/fonts/motiva-sans-400-italic.otf?80a97b6f21b11b30251b7b68405ba7b7) format("opentype");
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/** Motiva Sans 500 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-500.woff2?25afddc4d04420840d2e14975041e449) format("woff2"), url(/fonts/motiva-sans-500.woff?f5bfaa3af75f3fc939e7f016c8d919ff) format("woff"), url(/fonts/motiva-sans-500.otf?bc22cb3fbabf76c571f97a425b1ba5e0) format("opentype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-500-italic.woff2?d0933ac7b0883dea061c415653c02a82) format("woff2"), url(/fonts/motiva-sans-500-italic.woff?5f569c5ff4bbbc55914b19586d21d9fe) format("woff"), url(/fonts/motiva-sans-500-italic.otf?156b1b684e2f60a0cd5ef2087ffdacbe) format("opentype");
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+/** Motiva Sans 700 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-700.woff2?7b1a1a2df7bb9ee8675762b1fbaccb8c) format("woff2"), url(/fonts/motiva-sans-700.woff?b38d49c50280ea988bb18fffdc12d2a0) format("woff"), url(/fonts/motiva-sans-700.otf?c6bd5a94a6d4f07bebe829a6e76391e6) format("opentype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-700-italic.woff2?c6d330ba5491261c05e97f2b79e91d07) format("woff2"), url(/fonts/motiva-sans-700-italic.woff?152fe66971fd82560656069b37bdc692) format("woff"), url(/fonts/motiva-sans-700-italic.otf?60f3884e3b6bf1cd80c84b915943078f) format("opentype");
+    font-style: italic;
+    font-weight: 700;
+}
+
+
+/** Motiva Sans 800 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-800.woff2?752694f6f527bf73113494408c7c9aee) format("woff2"), url(/fonts/motiva-sans-800.woff?f7132fc253b2bac53582c678d0cecb19) format("woff"), url(/fonts/motiva-sans-800.otf?c7a07072aa2dc6f1018fe2e07b37a88e) format("opentype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-800-italic.woff2?f6fe4ded57d99750dbf20cca6afe39cd) format("woff2"), url(/fonts/motiva-sans-800-italic.woff?657e70b3f13a78e0f0e7c7cd5f0f2e24) format("woff"), url(/fonts/motiva-sans-800-italic.otf?9d4a28e3b97f0c800f03b84757d4d185) format("opentype");
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+/** Motiva Sans 900 **/
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-900.woff2?b0560ef77a3efef617dd6e85f94f3fe0) format("woff2"), url(/fonts/motiva-sans-900.woff?efe4e707774780ddd7e9d1d4b15032bf) format("woff"), url(/fonts/motiva-sans-900.otf?fe03fb9e2c2a14b5ef928256ea560e94) format("opentype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "motiva-sans";
+    src: url(/fonts/motiva-sans-900-italic.woff2?ed96115c660c4e1d2195d4b4a30a3737) format("woff2"), url(/fonts/motiva-sans-900-italic.woff?b2b40a43336a94418acd881dc8cbbbe8) format("woff"), url(/fonts/motiva-sans-900-italic.otf?521ff6c0facd6fad1bb056f6dc441596) format("opentype");
+    font-style: italic;
+    font-weight: 900;
+}
+
+.tk-motiva-sans {
+    font-family: "motiva-sans", sans-serif;
+}
+
+
+/*# sourceMappingURL=motiva-sans.css.map*/

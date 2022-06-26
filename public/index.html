@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <title>1Tool</title>
+    <meta charset="UTF-8">
+
+    <meta name="tenant-id" content="API_TENANT">
+    <meta name="auth-token" content="API_TOKEN">
+    <meta name="api-endpoint" content="https://my.1tool.com/suite/api">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://unpkg.com/primevue/resources/themes/tailwind-light/theme.css" rel="stylesheet">
+    <link href="https://unpkg.com/primevue/resources/primevue.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/primeicons/primeicons.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/km-menu/css/app.css">
+    <link rel="stylesheet" href="/assets/css/motiva-sans.css">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/ace.min.css">
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/km.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <style>
+        body {
+            background-color: #e4e6e9;
+            min-height: 100%;
+            font-family: motiva-sans;
+            font-size: 13px;
+            color: #393939;
+            line-height: 1.5;
+        }
+        .aside-footer.p-2 {
+            padding: 0;
+        }
+    </style>
+</head>
+<body style="margin: 0;">
+    <div><div class="top-navigation--wrapper"></div></div>
+    <div id="main-container" class="main-container has-km__menu" style="display: flex; min-height: calc(100vh - 45px); padding-top: 45px;">
+        <div><div class="km__menu--wrapper"></div></div>
+        <div style="flex: 1 1 0%; max-width: 100%; overflow: hidden;">
+            <!-- module content -->
+            <div id="frontend-canvas" data-module="Demo"></div>
+            <!-- end module content -->
+        </div>
+    </div>
+    <script src="/assets/km-top-navigation/km-top-navigation.js"></script>
+    <script src="/assets/km-menu/js/km-menu.js"></script>
+    <script src="/js/index.js" defer></script>
+
+    <script>
+        var menu = {
+            fixed: 1,
+            hidden: false,
+            collapsed: false,
+            items: [
+                { title: 'Dashboard', icon: 'km-dashboard', level: 1, open: false, active: false, expanded: false, create: false, children: [], class:"navigate", route: 'dashboard' },
+                { title: 'Demo', icon: 'km-help', level: 1, open: false, active: true, expanded: false, create: false, class:"navigate", route: 'demo', children: [] },
+            ]
+        }
+    </script>
+    <script>
+        var navigation = {
+            comments: { comment_count: 0 },
+            custom_background_color: '#f6f7f9',
+            lang: {
+                help: 'Help',
+                logout: 'Logout',
+                welcome: 'Welcome',
+                account: 'Settings',
+                comment: 'Comments',
+                show_all: 'Show all',
+                search_placeholder: 'Search',
+                no_comment: 'No comment available',
+            },
+            urls: {
+                home: "https://my.1tool.com/dashboard/index",
+                logout: "https://my.1tool.com/welcome/logout",
+                usersettings: "https://my.1tool.com/user_settings/index",
+                moreEntries: "https://my.1tool.com/welcome/getMoreEntries",
+                live_search: "https://my.1tool.com/welcome/live_search_ace",
+                lastcomments: "https://my.1tool.com/reporting/lastcomments",
+                comments: "https://my.1tool.com/reporting/getLatestComments",
+            },
+            logo: {
+                title: 'Suite',
+                logo_width: '90px',
+                custom_logo_path: 'https://my.1tool.com/crm_files/2/logo.png',
+            },
+            userdata: {
+                username: 'Max Mustermann',
+                user_image_src: `src="https:\\www.kundenmeister.com\\crm\\images\\standard_picture.jpg"`,
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            KM_Menu.mount('.km__menu--wrapper', menu);
+            KM_TopNavigation.mount('.top-navigation--wrapper', navigation);
+        });
+    </script>
+</body>
+</html>
