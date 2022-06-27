@@ -10,7 +10,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://github.com/1tool/1tool-module-skeleton">
     <img src="images/logo.svg" alt="Logo" width="80" height="80">
   </a>
 
@@ -19,10 +19,10 @@
   <p align="center">
    SDK For developing 1Tool modules.
     <br />
-    <a href="https://my.1tool.com/suite/api/docs"><strong>Explore the docs »</strong></a>
+    <a href="https://my.1tool.com/suite/api/docs"><strong>Explore the API docs »</strong></a>
     <br />
     <br />
-    <a href="https://my.1tool.com/">1Tool</a>
+    <a href="https://www.1tool.com/">1Tool</a>
     ·
     <a href="https://github.com/1tool/1tool-module-skeleton/issues">Report Bug</a>
     ·
