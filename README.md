@@ -212,4 +212,4 @@ You can obtain an api token with authorizing your user against the `auth/user` a
 [issues-url]: https://github.com/1tool/1tool-module-skeleton/issues
 [license-shield]: https://img.shields.io/github/license/1tool/1tool-module-skeleton.svg?style=for-the-badge
 [license-url]: https://github.com/1tool/1tool-module-skeleton/blob/master/LICENSE
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/screenshot.jpg
